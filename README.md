@@ -1,5 +1,6 @@
 # quake-maps
-My custom maps made for quake
+
+My custom maps made for quake. I strongly recommend checking out [jonathanlinat's Level-Design Starterkit]https://github.com/jonathanlinat/quake-leveldesign-starterkit)
 
 ## Run a map
 
