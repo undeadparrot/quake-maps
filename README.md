@@ -3,10 +3,17 @@ My custom maps made for quake
 
 ## Run a map
 
-> quakespasm.exe -game mymod +map macbeth
+> quakespasm.exe +map macbeth
+
+
+#### How do mods work?
+
+> quakespasm.exe -game mymod 
 
 Where `mymod` refers to a folder in the quake directory, similar to the official game's own `ID1` folder.
+Each mod folder, include the main one, is considered an override over the defaults. If you want the game to start with a different map or some other keybinds, just add those to a config and put it in your mod folder.
 
+For example, if you downloaded the excellent [Arcane Dimensions mod](http://www.simonoc.com/pages/design/sp/ad.htm) you should unpack it into the Quake directory as a subdirectory, perhaps called `ad`. Then when you launch Quake request that folder `quakespasm.exe -game ad`
 
 ## Tools
 
